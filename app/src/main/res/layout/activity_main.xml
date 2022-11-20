@@ -26,13 +26,16 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_weight="1"
-          android:text="SAVE"/>
+          android:text="SAVE"
+          android:visibility="invisible"/>
+
       <Button
-         android:id="@+id/btnLoad"
+          android:id="@+id/btnLoad"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_weight="1"
-         android:text="LOAD"/>
+          android:text="LOAD"
+          android:visibility="invisible" />
 
 
 
